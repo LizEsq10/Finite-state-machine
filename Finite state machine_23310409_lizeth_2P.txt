@@ -1,0 +1,28 @@
+Mquina de estado.
+¿Que son las maquinas de estado fiintos?
+es un concepto utilizado en la informatica, se utilizan en todas partes y en casi todos los sistemas de software que puedas imaginar, ya sea un compilador, un sistema operativo.
+Las FSM pueden utilizarse para reducir la complejidad del código separando la lógica en bloques discretos, mejorar la legibilidad del documento organizando el código en subrutinas separadas y facilitar la depuración identificando rutas de ejecución específicas a través del código. 
+Una máquina de estado finito, o FSM, es un modelo de computación que sólo puede estar en uno de un número finito de estados en un momento dado. Como su nombre indica, una FSM es finita en el sentido de que acabará ejecutándose una vez puesta en marcha. El FSM suele estar definido por un conjunto de reglas que describen las transiciones de estado que puede realizar, junto con las entradas que provocan la transición de un estado a otro. Estas entradas también se denominan a veces «eventos». 
+
+Esta arquitectura es ideal para aplicaciones que pueden describirse como una combinación de:
+
+*Estados
+
+*Lógica para toma de decisiones que determina cuándo pasar a un estado en particular
+
+Un estado se puede definir como el estado dentro del programa mientras se realiza la tarea general del programa; ejemplos de estados pueden ser inicializar, esperar, ejecutar un cálculo, verificar el estado, etc.
+La declaración lógica ayuda a determinar cuándo pasar a un nuevo estado y a qué estado pasar. 
+
+¿Porque utilizan una maquina de estado?
+
+Una máquina de estado se basa en la información del usuario o en el cálculo en el estado para determinar qué estado pasar al siguiente. Muchas aplicaciones requieren un estado de "inicialización", seguido de un estado predeterminado en el que se pueden realizar acciones diferentes. Las acciones realizadas pueden depender de las entradas anteriores y actuales, así como de los estados. Después se puede utilizar un estado de "apagado" para realizar acciones de limpieza.
+
+Además de su poderosa capacidad para implementar algoritmos de toma de decisiones, las máquinas de estado también son formas funcionales de planificar aplicaciones. A medida que crece la complejidad de las aplicaciones, también crece la necesidad de un diseño adecuado. Los diagramas de estado y los diagramas de flujo son útiles y algunas veces, esenciales para el proceso de diseño. Las máquinas de estado no solamente son ventajosas para planificar aplicaciones, sino que también son fáciles de crear.
+
+Casos de uso de "finite state machine"
+
+1-Cuadros de diálogo de una sola página o con pestañas. Cada pestaña del cuadro de diálogo corresponde a un estado. Un usuario inicia las transiciones de estado haciendo clic en una pestaña en particular. Para cada pestaña, las acciones que el usuario puede realizar se incluyen en el estado.
+
+2-Un cajero automático (ATM). Los estados en esta aplicación podrían ser esperar la información del usuario, verificar la cantidad solicitada con el saldo de la cuenta, entregar el dinero, imprimir el recibo, etc.
+
+3-Las máquinas de estado se utilizan más comúnmente al programar interfaces de usuario. Al crear una interfaz de usuario, las diferentes acciones de usuario envían a la interfaz de usuario a diferentes segmentos de procesamiento. Cada uno de estos segmentos actuará como estado en la máquina de estado. Estos segmentos pueden conducir a otro segmento para su procesamiento posterior o esperar a otro evento del usuario. En este ejemplo, la máquina de estado monitorea constantemente al usuario para la siguiente acción a realizar.
